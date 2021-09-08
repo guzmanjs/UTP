@@ -1,0 +1,41 @@
+/* Selectores de etiqueta */
+
+/* etiqueta = 1
+clase = 10
+id = 100
+in-line = 1000
+!importante gana */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+article.noticias_articulo{
+    background-color: aqua;
+    font-size: 20px;
+}
+
+article{
+    background-color: aquamarine;
+}
+
+.noticias_articulo{
+    background-color: blueviolet;
+    font-size: 12px;
+}
+
+.noticia{
+    width: 48%;
+    background-color: aliceblue;
+}
+
+.noticia__texto-previo{
+    text-align: left;
+}
+
+.noticia__imagen{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
